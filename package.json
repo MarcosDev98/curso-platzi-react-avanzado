@@ -4,7 +4,7 @@
   "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
   "main": "index.js",
   "scripts": {
-    "vercel-build": "npm run biuld",
+    "vercel-build": "npm run build",
     "build": "webpack",
     "dev": "webpack-dev-server",
     "lint": "standard",
@@ -35,6 +35,7 @@
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5",
     "vercel": "^24.2.4"
   },
   "standard": {
